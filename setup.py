@@ -7,7 +7,7 @@ sources = glob('WiringPi/devLib/*.c')
 sources += glob('WiringPi/wiringPi/*.c')
 sources += ['wiringpi_wrap.c']
 
-sources.remove('WiringPi/devLib/piFaceOld.c')
+# sources.remove('WiringPi/devLib/piFaceOld.c')
 
 _wiringpi = Extension(
     '_wiringpi',
